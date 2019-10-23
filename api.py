@@ -11,7 +11,7 @@ class Youtube(object):
             "channelId": self.channel,
             "part":"snippet",
             "order": "date",
-            "maxResults": 9
+            "maxResults": 12
         }
         url = "https://www.googleapis.com/youtube/v3/search"
         return get(url=url,params=params)
