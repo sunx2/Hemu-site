@@ -1,7 +1,7 @@
 from flask import Flask,render_template, send_from_directory
 app = Flask(__name__,static_folder="templates")
 import json 
-
+import os
 a = json.load(open("channel.json",'r'))
 b = json.load(open("video.json",'r'))
 
