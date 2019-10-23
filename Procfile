@@ -1,1 +1,1 @@
-web: gunicorn Hemu-site:app
+web: gunicorn app.py
